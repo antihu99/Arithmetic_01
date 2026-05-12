@@ -20,6 +20,13 @@ public class ArithmeticOperationsApps {
         System.out.print("연산자 >>");
         operator = scan.next();
 
+        // 오류 check
+         if(!operator.equals("+") && !operator.equals("-") && !operator.equals("*") && !operator.equals("/") ){
+            System.out.println("연산자 오류 입니다 \n 다시 시작하세요! ");
+            scan.close();
+            return;
+         }
+
         //두번째 정수값 입력부분
         System.out.print("두번째 정수 값 >>");
         num2 = scan.nextInt();
@@ -54,6 +61,8 @@ public class ArithmeticOperationsApps {
         {
             System.out.println("정확하게 정수와 연산자를 입력해주세요.");
         }
+
+        scan.close();
     }
 
 }
