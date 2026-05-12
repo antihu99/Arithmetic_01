@@ -26,14 +26,14 @@ public class ArithmeticOperationsApps {
 
         //계산할 식
         System.out.println("================================================");
-        System.out.println(num1+" "+operator+" "+num2+"을 계산합니다.");
+        System.out.println(num1+" "+operator+" "+num2+" 을 계산합니다.");
         System.out.println("================================================");
 
 
         if(operator.equals("+"))
         {
             result = ao.addition(num1, num2);
-            System.out.println(num1 + "+" + num2 + "=" + result+"입니다.");
+            System.out.println(num1 + " + " + num2 + " = " + result+" 입니다.");
         }
         else if(operator.equals("-"))
         {

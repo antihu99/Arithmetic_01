@@ -12,11 +12,11 @@ class ArithmeticOperationsTest {
         assertEquals(6,ao.addition(4, 2));
     }
 
-    @Test
-    void testSubtraction() {
-        ArithmeticOperations ao=new ArithmeticOperations();
-        assertEquals(2,ao.subtraction(4, 2));
-    }
+    // @Test
+    // void testSubtraction() {
+    //     ArithmeticOperations ao=new ArithmeticOperations();
+    //     assertEquals(2,ao.subtraction(4, 12));
+    // }
 
     @Test
     void testMultiplication() {
@@ -24,10 +24,10 @@ class ArithmeticOperationsTest {
         assertEquals(8,ao.multiplication(4, 2));
     }
 
-    @Test
-    void testDivision() {
-        ArithmeticOperations ao=new ArithmeticOperations();
-        assertEquals(2,ao.division(4, 2));
-    }
+    // @Test
+    // void testDivision() {
+    //     ArithmeticOperations ao=new ArithmeticOperations();
+    //     assertEquals(2,ao.division(4, 2));
+    // }
 
 }

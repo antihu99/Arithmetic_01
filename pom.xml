@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.10.2</version> <!-- RELEASE ❌ → 고정 버전 사용 -->
+            <version>5.9.3</version> <!-- RELEASE ❌ → 고정 버전 사용 , 버전고정화.... -->
             <scope>test</scope>
         </dependency>
     </dependencies>
